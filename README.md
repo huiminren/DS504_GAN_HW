@@ -40,7 +40,7 @@ g = Sequential()
 g.add(Dense(256,input_dim = z_dim))
 g.add(Activation("relu"))
 g.add(Dense(784, activation='sigmoid')) 
-g.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy'])
+
 
 # Discrinimator
 d = Sequential()
